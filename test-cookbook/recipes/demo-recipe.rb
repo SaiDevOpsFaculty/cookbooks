@@ -8,7 +8,7 @@ package 'mysql' do
   action :install
 end
 	
-file '/myfile4' do
+file '/myfile500' do
   content 'This is my second file'
   action :create
   owner 'root'
